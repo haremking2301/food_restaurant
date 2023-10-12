@@ -597,10 +597,12 @@ header .title__btn:hover {
         padding: 30px 30px;
         opacity: 0.85;
         transition: all 0.4s ease-out;
+        display: none;
     }
     
     .navbar.open{
         left: 0;
+        display: flex;
     }
     .menu i:first-child {
         display: block;
